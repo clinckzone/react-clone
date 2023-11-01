@@ -236,7 +236,7 @@ function App(props) {
   return Didact.createElement("div", {
     id: "foo"
   }, Didact.createElement("h1", null, `Hello from ${props.name}`), Didact.createElement("p", null, `${props.name}  is a react library built from scratch. It's my attempt to understand
-				React's internalss`), Didact.createElement(Counter, null));
+        React's internalss`), Didact.createElement(Counter, null));
 }
 const element = Didact.createElement(App, {
   name: "Didact"

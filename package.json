@@ -1,23 +1,24 @@
 {
-	"name": "simple-react-clone",
-	"version": "1.0.0",
-	"description": "React framework clone",
-	"main": "index.js",
-	"scripts": {
-		"build": "babel index.js app.js -d dist",
-		"dev": "nodemon --watch app.js --exec \"npm run build && node dist/index.js\""
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"devDependencies": {
-		"@babel/cli": "^7.22.10",
-		"@babel/core": "^7.22.10",
-		"@babel/preset-env": "^7.22.10",
-		"@babel/preset-react": "^7.22.5",
-		"nodemon": "^3.0.1"
-	},
-	"dependencies": {
-		"express": "^4.18.2"
-	}
+  "name": "simple-react-clone",
+  "version": "1.0.0",
+  "description": "React framework clone",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel index.js app.js -d dist",
+    "dev": "nodemon --watch app.js --exec \"npm run build && node dist/index.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.22.10",
+    "@babel/core": "^7.22.10",
+    "@babel/preset-env": "^7.22.10",
+    "@babel/preset-react": "^7.22.5",
+    "gh-pages": "^6.0.0",
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }

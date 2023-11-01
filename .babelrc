@@ -1,18 +1,18 @@
 {
-	"presets": [["@babel/preset-react", { "targets": "defaults" }]],
-	"overrides": [
-		{
-			"test": "index.js",
-			"presets": [
-				[
-					"@babel/preset-env",
-					{
-						"targets": {
-							"node": "current"
-						}
-					}
-				]
-			]
-		}
-	]
+  "presets": [["@babel/preset-react", { "targets": "defaults" }]],
+  "overrides": [
+    {
+      "test": "index.js",
+      "presets": [
+        [
+          "@babel/preset-env",
+          {
+            "targets": {
+              "node": "current"
+            }
+          }
+        ]
+      ]
+    }
+  ]
 }
