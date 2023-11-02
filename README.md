@@ -12,8 +12,8 @@ Starting from scratch, these are all the things we have added to our version of 
 **VII:** Function Components  
 **VIII:** Hooks
 
-## Setup
-
+## Setup for local developmen
+ 
 ```
 npm install
 npm run dev
